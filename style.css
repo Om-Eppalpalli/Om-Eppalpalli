@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*h1{
+    font-family: monospace;
+}
+
+h2{
+    font-size: 100px;
+}
+
+button{
+    border: 2px dotted black;
+    background-color: coral;
+}
+
+p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+input[type="text"]{
+    width: 100%;
+}
+
+input[type="password"]{
+    width: 50%;
+    border: solid red;
+} */
+
+/* ------------------------------ Day 6 - Box Model, Display & Position ------------------------------ */
+/* .parent{
+    background-color: aqua;
+}
+
+.child{
+    background-color: purple;
+    display: inline-block;
+    padding: 10px;
+    margin: 30px;
+}
+
+.parent2{
+    position: relative;
+    background-color: darkblue;
+    width: 300px;
+    height: 300px;
+}
+
+.child2{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.parent3{
+    background-color: darkred;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 30px;
+    margin: 50px;
+}
+
+.child3{
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+}
+
+button{
+    display: block;
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgreen;
+}
+button:focus{
+    background-color: black;
+}
+button:disabled{
+    cursor:not-allowed;
+    opacity: 0.3;
+} */
+
+/* ------------------------------ Day 7 - Media Queries, Flex Box ------------------------------ */
+/* mobile -> green -> 0 - 767px
+   tablet -> blue  -> 768px
+   laptop -> red   -> 1020px
+   PC     -> orange -> 1400px */
+
+/* body{
+    background-color: green;
+}
+@media(min-width: 768px){
+    body{
+        background-color: blue;
+    }
+}
+@media(min-width: 1020px){
+    body{
+        background-color: red;
+    }
+}
+@media(min-width: 1400px){
+    body{
+        background-color: orange;
+    }
+} */
+
+/* Homework -> 28:30 */
+.parent-day7{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex; /* -> It means Inline*/
+    /* flex-wrap: wrap; -> It means Inline-Block*/
+    gap: 5px;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.child-day7{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.child-day7-2{
+    background-color: greenyellow;
+    width: 200px;
+    height: 350px;
+}
+

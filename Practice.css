@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hline {
+    background-color: #625c5c;
+    display: block;
+    height: 1px;
+    width: 100%;
+}
+
+/* ---------------------------------------- Sign Up Form ---------------------------------------- */
+.form-child {
+    background-color: wheat;
+    width: 400px;
+    height: 350px;
+}
+
+.fn {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+}
+
+.ln {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+}
+
+.em {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+}
+
+.pass {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+}
+
+#form-butt {
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.tele {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+}
+
+.gender {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input[name="gender"] {
+    cursor: pointer;
+}
+
+/* ---------------------------------------- Friends Table ---------------------------------------- */
+
+.ftable {
+    padding: 10px;
+    margin: 15px;
+}
+
+/* ---------------------------------------- Resolutions ---------------------------------------- */
+
+.resolution{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+@media(min-width: 768px)
+{
+    .resolution{
+        background-color: blue;
+    }
+}
+
+@media(min-width: 1020px)
+{
+    .resolution{
+        background-color: red;
+    }
+}
+
+@media(min-width: 1400px)
+{
+    .resolution{
+        background-color: orange;
+    }
+}
